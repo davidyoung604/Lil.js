@@ -1,4 +1,3 @@
-<!--
 /********************************************************
  * Project   : Lil.js
  * Author    : David Young
@@ -8,7 +7,6 @@
  *             you keep the attributions intact and do not
  *             charge for it.
  ********************************************************/
--->
 
 var Lil = {
 	version: "0.1.1",
