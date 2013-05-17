@@ -9,7 +9,26 @@ If you don't know how to work with a JS file, go use the Google machine.
 
 Usage
 -----
-    $("id_of_field_to_select").on("click", function() { var x=1; doStuff(x); });
+The basic selector is easy to work with. Just pass it a string containing the ID you want to get.
+
+    $("idOfTarget");
+
+That isn't very useful though, so you can specify an event listener with the "on" function.
+
+    $("idOfTarget").on("click", function() { var x=1; doStuff(x); });
+    $("idOfTarget").on("keyup", function() { var x=1; doStuff(x); });
+
+You can use any valid JavaScript event as the first parameter to "on", and just pass a function as the second parameter.
+
+If you need a raw reference to the item, simply use the "raw" function.
+
+    $("idOfTarget").raw().checked = true;
+
+This gives you the same result as:
+
+    document.getElementById("idOfTarget").checked = true;
+
+but it's shorter and less of a pain to type.
 
 Notes
 -----

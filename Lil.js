@@ -11,12 +11,16 @@
 -->
 
 var Lil = {
-	version: "0.1.0",
+	version: "0.1.1",
     init: function(id) {
         self = Lil;
         self.selector = id;
         self.target = document.getElementById(id);
         return self;
+    },
+
+    raw: function() {
+        return self.target;
     },
     
     on: function(event, func) {
