@@ -2,6 +2,7 @@
  * Project   : Lil.js
  * Author    : David Young
  * Date      : May 16, 2013
+ * Homepage  : github.com/davidyoung604/Lil.js
  * Copyright : All rights reserved.
  * Licence   : Free for personal or business use as long as
  *             you keep the attributions intact and do not
