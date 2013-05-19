@@ -10,7 +10,7 @@
  ********************************************************/
 
 var Lil = {
-	version: "0.1.1",
+    version: "0.1.1",
     init: function(id) {
         self = Lil;
         self.selector = id;
